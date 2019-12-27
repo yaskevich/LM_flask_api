@@ -19,6 +19,8 @@ How to use?
 "head_#9":[[0.40269127235071345,0.2677818194240932,0.5959565543461037],[0.15847011142997847,0.46117792494398957,0.6654463197154274],[0.9999738278472752,0.8672043187755779,0.7552910871222924]],
 "sentence_probs":{"Remember":0.35,"milk":0.25,"the":0.4}}}
 
+6. curl http://localhost:5000/HMM -d "data=привет" -X GET
+
 
 Returned JSON contains attention matricies from 12 heads (key - head_#_) and probabilities of each word in the splited sentence. 
 
